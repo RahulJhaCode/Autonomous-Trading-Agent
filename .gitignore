@@ -1,0 +1,41 @@
+# ── Environment & Secrets ────────────────────────────────────────
+.env
+*.env
+.env.local
+.env.*.local
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+venv/
+env/
+.venv/
+
+# ── ChromaDB (vector memory) ─────────────────────────────────────
+memory/chroma_db/
+
+# ── Logs ─────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Node / Frontend ──────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── IDE ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
